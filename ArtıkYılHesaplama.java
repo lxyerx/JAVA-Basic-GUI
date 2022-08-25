@@ -1,4 +1,6 @@
-public static void ArtikYilHesaplama(int Yil) {
+public class ArtikYil {
+
+	public static void ArtikYilHesaplama(int Yil) {
 
 		boolean artikyil = false;
 		if (Yil % 4 == 0) {
@@ -13,9 +15,11 @@ public static void ArtikYilHesaplama(int Yil) {
 			artikyil = false;
 
 		if (artikyil)
-			JOptionPane.showMessageDialog(null, Yil + " - Artık Yıldır");
+			JOptionPane.showMessageDialog(null, Yil + " - Artık Yıldır", "Artık Yıl Hesaplama",
+					JOptionPane.INFORMATION_MESSAGE);
 		else
-			JOptionPane.showMessageDialog(null, Yil + " - Artık Yıl Degildir");
+			JOptionPane.showMessageDialog(null, Yil + " - Artık Yıl Degildir", "Artık Yıl Hesaplama",
+					JOptionPane.INFORMATION_MESSAGE);
 
 	}
 
