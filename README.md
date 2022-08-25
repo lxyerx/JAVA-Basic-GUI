@@ -4,7 +4,6 @@ Java çalışırken kullanıcı arayüzü olan bir şeyler yapmak istedim Joptio
 
 Yazdığınız kodun çalışmasını istiyorsanız Kütüphaneyi import etmeyi unutmayınız. 
 
-```
-import javax.swing.JOptionPane;
+#### import javax.swing.JOptionPane;
 
-```
+
